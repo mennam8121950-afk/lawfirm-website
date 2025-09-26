@@ -1,0 +1,140 @@
+/* --- General --- */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+    color: #1E2A3A;
+}
+
+/* --- Header --- */
+header {
+    background-color: #1E2A3A;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a.logo {
+    color: #D4AF37;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar a {
+    color: #FFFFFF;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #D4AF37;
+}
+
+/* --- Sections --- */
+.section {
+    padding: 40px;
+    text-align: center;
+}
+
+.section h2 {
+    color: #1E2A3A;
+}
+
+.section p {
+    color: #7F8C8D;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* --- Cards --- */
+.card, .area-card {
+    background-color: #FFFFFF;
+    border: 2px solid #D4AF37;
+    padding: 20px;
+    border-radius: 8px;
+    width: 250px;
+    margin: 15px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card h3, .area-card h3 {
+    color: #1E2A3A;
+}
+
+.card p, .area-card p {
+    color: #7F8C8D;
+}
+
+.area-card:hover, .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* --- Profiles Section --- */
+.profiles {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.profile img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* --- Testimonials --- */
+.testimonial {
+    background: #FFFFFF;
+    border-left: 4px solid #D4AF37;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/* --- Contact Form --- */
+form {
+    max-width: 600px;
+    margin: auto;
+    text-align: left;
+}
+
+form label {
+    color: #1E2A3A;
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background-color: #D4AF37;
+    color: #1E2A3A;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #c29e2b;
+}
+
+/* --- Footer --- */
+footer {
+    background-color: #1E2A3A;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 15px;
+}
